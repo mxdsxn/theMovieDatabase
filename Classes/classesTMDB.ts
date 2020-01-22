@@ -63,6 +63,18 @@ class Network{
     constructor(){}
 }
 
+class Season{
+    air_date: string
+    episode_count: number
+    id: number
+    name: string
+    overview: string
+    poster_path: string
+    season_number: number
+
+    constructor(){}
+}
+
 class Content{
     backdrop_path: string
     genres: Genre[]
@@ -101,18 +113,6 @@ class TvSeries extends Content{
     constructor(){
         super()
     }
-}
-
-class Season{
-    air_date: string
-    episode_count: number
-    id: number
-    name: string
-    overview: string
-    poster_path: string
-    season_number: number
-
-    constructor(){}
 }
 
 class Movie extends Content{
