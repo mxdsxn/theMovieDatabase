@@ -17,8 +17,7 @@ export default class Movie extends Content{
     title:string
     video: boolean
 
-    constructor(newTitle: string){
+    constructor(){
         super()
-        this.title = newTitle
     }
 }

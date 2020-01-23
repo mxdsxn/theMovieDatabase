@@ -3,7 +3,7 @@ import Prod_companies from "./Prod_companies"
 
 export default class Content{
     backdrop_path: string
-    genre: Genre[]
+    genres: Genre[]
     homepage: string
     id: number
     original_language: string
